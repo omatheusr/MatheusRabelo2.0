@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1C4AEE1E0C621E0073946C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C4AED1E0C621E0073946C /* AppDelegate.swift */; };
+		2F1C4AF31E0C621F0073946C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C4AF11E0C621F0073946C /* Main.storyboard */; };
+		2F1C4AF51E0C621F0073946C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C4AF41E0C621F0073946C /* Assets.xcassets */; };
+		2F1C4AF81E0C621F0073946C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C4AF61E0C621F0073946C /* LaunchScreen.storyboard */; };
+		2F1C4B051E0C6BDE0073946C /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C4B021E0C6BBC0073946C /* RobotoSlab-Light.ttf */; };
+		2F1C4B061E0C6BDE0073946C /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C4B031E0C6BBC0073946C /* RobotoSlab-Thin.ttf */; };
+		2F1C4B091E0C74950073946C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C4B081E0C74950073946C /* UIViewExtension.swift */; };
+		2F30A6EB1E0E286000462A50 /* AnimatedCircleExpandingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30A6EA1E0E286000462A50 /* AnimatedCircleExpandingUIView.swift */; };
+		2F30A6ED1E0E71B500462A50 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30A6EC1E0E71B500462A50 /* HistoryViewController.swift */; };
+		2F30A6F21E0E73B800462A50 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30A6F11E0E73B800462A50 /* AboutMeViewController.swift */; };
+		2F36DE711E0EE73400A50B90 /* AnimatedDialogUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36DE701E0EE73400A50B90 /* AnimatedDialogUIView.swift */; };
+		2F6C5DD01E0DA25800E0B517 /* HistoryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C5DCF1E0DA25800E0B517 /* HistoryPageViewController.swift */; };
+		2F6C5DD21E0DA27500E0B517 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C5DD11E0DA27500E0B517 /* PresentationViewController.swift */; };
+		2F6C5DD41E0DA6A500E0B517 /* TransitionSwipeUpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C5DD31E0DA6A500E0B517 /* TransitionSwipeUpManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F1C4AEA1E0C621E0073946C /* MatheusRabelo 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatheusRabelo 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1C4AED1E0C621E0073946C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1C4AF21E0C621F0073946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1C4AF41E0C621F0073946C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1C4AF71E0C621F0073946C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1C4AF91E0C621F0073946C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1C4B021E0C6BBC0073946C /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		2F1C4B031E0C6BBC0073946C /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		2F1C4B081E0C74950073946C /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2F30A6EA1E0E286000462A50 /* AnimatedCircleExpandingUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedCircleExpandingUIView.swift; sourceTree = "<group>"; };
+		2F30A6EC1E0E71B500462A50 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		2F30A6F11E0E73B800462A50 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		2F36DE701E0EE73400A50B90 /* AnimatedDialogUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedDialogUIView.swift; sourceTree = "<group>"; };
+		2F6C5DCF1E0DA25800E0B517 /* HistoryPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPageViewController.swift; sourceTree = "<group>"; };
+		2F6C5DD11E0DA27500E0B517 /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		2F6C5DD31E0DA6A500E0B517 /* TransitionSwipeUpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionSwipeUpManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1C4AE71E0C621E0073946C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1C4AE11E0C621E0073946C = {
+			isa = PBXGroup;
+			children = (
+				2F1C4AEC1E0C621E0073946C /* MatheusRabelo 2.0 */,
+				2F1C4AEB1E0C621E0073946C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1C4AEB1E0C621E0073946C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4AEA1E0C621E0073946C /* MatheusRabelo 2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1C4AEC1E0C621E0073946C /* MatheusRabelo 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4B071E0C74820073946C /* Extension */,
+				2F1C4AED1E0C621E0073946C /* AppDelegate.swift */,
+				2F1C4B011E0C623A0073946C /* Controller */,
+				2F1C4AFF1E0C622D0073946C /* View */,
+				2F1C4B001E0C62330073946C /* Resource */,
+			);
+			path = "MatheusRabelo 2.0";
+			sourceTree = "<group>";
+		};
+		2F1C4AFF1E0C622D0073946C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4AF11E0C621F0073946C /* Main.storyboard */,
+				2F1C4AF61E0C621F0073946C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2F1C4B001E0C62330073946C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4B041E0C6BC10073946C /* Fonts */,
+				2F1C4AF41E0C621F0073946C /* Assets.xcassets */,
+				2F1C4AF91E0C621F0073946C /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		2F1C4B011E0C623A0073946C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F30A6EE1E0E72C300462A50 /* History */,
+				2F6C5DD11E0DA27500E0B517 /* PresentationViewController.swift */,
+				2F6C5DD31E0DA6A500E0B517 /* TransitionSwipeUpManager.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2F1C4B041E0C6BC10073946C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4B021E0C6BBC0073946C /* RobotoSlab-Light.ttf */,
+				2F1C4B031E0C6BBC0073946C /* RobotoSlab-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		2F1C4B071E0C74820073946C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C4B081E0C74950073946C /* UIViewExtension.swift */,
+				2F30A6EA1E0E286000462A50 /* AnimatedCircleExpandingUIView.swift */,
+				2F36DE701E0EE73400A50B90 /* AnimatedDialogUIView.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2F30A6EE1E0E72C300462A50 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				2F6C5DCF1E0DA25800E0B517 /* HistoryPageViewController.swift */,
+				2F30A6EC1E0E71B500462A50 /* HistoryViewController.swift */,
+				2F36DE6F1E0E73FA00A50B90 /* Pages */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		2F36DE6F1E0E73FA00A50B90 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2F30A6F11E0E73B800462A50 /* AboutMeViewController.swift */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1C4AE91E0C621E0073946C /* MatheusRabelo 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1C4AFC1E0C621F0073946C /* Build configuration list for PBXNativeTarget "MatheusRabelo 2.0" */;
+			buildPhases = (
+				2F1C4AE61E0C621E0073946C /* Sources */,
+				2F1C4AE71E0C621E0073946C /* Frameworks */,
+				2F1C4AE81E0C621E0073946C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MatheusRabelo 2.0";
+			productName = "MatheusRabelo 2.0";
+			productReference = 2F1C4AEA1E0C621E0073946C /* MatheusRabelo 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1C4AE21E0C621E0073946C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Matheus;
+				TargetAttributes = {
+					2F1C4AE91E0C621E0073946C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67BQ8QZEWD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F1C4AE51E0C621E0073946C /* Build configuration list for PBXProject "MatheusRabelo 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1C4AE11E0C621E0073946C;
+			productRefGroup = 2F1C4AEB1E0C621E0073946C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1C4AE91E0C621E0073946C /* MatheusRabelo 2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1C4AE81E0C621E0073946C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C4B051E0C6BDE0073946C /* RobotoSlab-Light.ttf in Resources */,
+				2F1C4B061E0C6BDE0073946C /* RobotoSlab-Thin.ttf in Resources */,
+				2F1C4AF81E0C621F0073946C /* LaunchScreen.storyboard in Resources */,
+				2F1C4AF51E0C621F0073946C /* Assets.xcassets in Resources */,
+				2F1C4AF31E0C621F0073946C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1C4AE61E0C621E0073946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F36DE711E0EE73400A50B90 /* AnimatedDialogUIView.swift in Sources */,
+				2F6C5DD41E0DA6A500E0B517 /* TransitionSwipeUpManager.swift in Sources */,
+				2F6C5DD21E0DA27500E0B517 /* PresentationViewController.swift in Sources */,
+				2F30A6F21E0E73B800462A50 /* AboutMeViewController.swift in Sources */,
+				2F30A6EB1E0E286000462A50 /* AnimatedCircleExpandingUIView.swift in Sources */,
+				2F6C5DD01E0DA25800E0B517 /* HistoryPageViewController.swift in Sources */,
+				2F1C4B091E0C74950073946C /* UIViewExtension.swift in Sources */,
+				2F30A6ED1E0E71B500462A50 /* HistoryViewController.swift in Sources */,
+				2F1C4AEE1E0C621E0073946C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F1C4AF11E0C621F0073946C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1C4AF21E0C621F0073946C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F1C4AF61E0C621F0073946C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1C4AF71E0C621F0073946C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1C4AFA1E0C621F0073946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F1C4AFB1E0C621F0073946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1C4AFD1E0C621F0073946C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67BQ8QZEWD;
+				INFOPLIST_FILE = "MatheusRabelo 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.MatheusRabelo-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1C4AFE1E0C621F0073946C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67BQ8QZEWD;
+				INFOPLIST_FILE = "MatheusRabelo 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.MatheusRabelo-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1C4AE51E0C621E0073946C /* Build configuration list for PBXProject "MatheusRabelo 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1C4AFA1E0C621F0073946C /* Debug */,
+				2F1C4AFB1E0C621F0073946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1C4AFC1E0C621F0073946C /* Build configuration list for PBXNativeTarget "MatheusRabelo 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1C4AFD1E0C621F0073946C /* Debug */,
+				2F1C4AFE1E0C621F0073946C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1C4AE21E0C621E0073946C /* Project object */;
+}
