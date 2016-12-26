@@ -10,11 +10,14 @@ import UIKit
 
 class AboutMeViewController: UIViewController {
 
+    @IBOutlet weak var constraintViewPresentationBottom: NSLayoutConstraint!
     @IBOutlet weak var viewPresentation: UIView!
     @IBOutlet weak var stackHistory: UIStackView!
     
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblSubtitle: UILabel!
+    
+    private var loaded = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +28,15 @@ class AboutMeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        
+        if self.loaded { return }
+        
+        for i in 1...6{
+            guard let lbl = self.view.viewWithTag(i) as? UILabel else { continue }
+            lbl.layer.opacity = 0
+            lbl.transform = lbl.transform.translatedBy(x: 0, y: 10)
+        }
+        
         self.lblTitle.layer.opacity = 0
         self.lblSubtitle.layer.opacity = 0
     }
@@ -32,23 +44,37 @@ class AboutMeViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        if self.loaded { return }
+        self.loaded = true
+        
         UIView.animate(withDuration: 0.7, delay: 0.4, options: .curveEaseIn, animations: {
             self.lblTitle.layer.opacity = 1
         }, completion: nil)
         UIView.animate(withDuration: 0.5, delay: 0.8, options: .curveEaseIn, animations: {
             self.lblSubtitle.layer.opacity = 1
-        }, completion: nil)
-        
-        
-        UIView.animate(withDuration: 0.5, delay: 1.2, options: UIViewAnimationOptions.curveEaseIn, animations: { 
+        }, completion: {
+            completed in
             
-//            let nConstraintTop = NSLayoutConstraint(item: self.topLayoutGuide, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem:self.viewPresentation, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 50)
-//            let nConstraintLeading = NSLayoutConstraint(item: self.viewPresentation.superview!, attribute: NSLayoutAttribute.leading, relatedBy: NSLayoutRelation.equal, toItem: self.viewPresentation, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: 25)
-//            
-//            self.viewPresentation.removeConstraints(self.viewPresentation.constraints)
-//            self.viewPresentation.addConstraints([nConstraintTop, nConstraintLeading])
-//            
-//            self.view.layoutSubviews()
-        }, completion: nil)
+            self.constraintViewPresentationBottom.constant = self.view.frame.size.height - self.viewPresentation.frame.size.height * 2
+            UIView.animate(withDuration: 0.7, delay: 1, options: UIViewAnimationOptions.curveEaseIn, animations: {
+                self.view.layoutSubviews()
+            }, completion: {
+                completed in
+                
+                self.stackHistory.isHidden = false
+                for i in 1...6{
+                    guard let lbl = self.view.viewWithTag(i) as? UILabel else { continue }
+                    
+                    UIView.animate(withDuration: 0.7, delay: TimeInterval(Double(i)*0.5), options: UIViewAnimationOptions.curveEaseIn, animations: {
+                        lbl.layer.opacity = 1
+                        lbl.transform = CGAffineTransform.identity
+                    }, completion: nil)
+                }
+
+            })
+            
+        })
+        
+        
     }
 }

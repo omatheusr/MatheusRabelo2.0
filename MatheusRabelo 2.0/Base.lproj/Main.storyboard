@@ -194,43 +194,46 @@ Swipe up to know more about me!</string>
                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="uNE-Zs-gJH">
                                 <rect key="frame" x="25" y="277" width="250" height="290"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My full name is Matheus Oliveira Rabelo." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc1-b4-xIR">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My full name is Matheus Oliveira Rabelo." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc1-b4-xIR">
                                         <rect key="frame" x="0.0" y="0.0" width="228.5" height="14.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m 21 years old &amp; I started programming when I was 13." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKT-eV-bIP">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m 21 years old &amp; I started programming when I was 13." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKT-eV-bIP">
                                         <rect key="frame" x="0.0" y="26.5" width="233" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currently I am studying System Analysis and Development at ULBRA (Lutheran Brazilian University)." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-wA-WG4">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currently I am studying System Analysis and Development at ULBRA (Lutheran Brazilian University)." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-wA-WG4">
                                         <rect key="frame" x="0.0" y="67.5" width="230.5" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I worked with Microsoft SQLServer, C# &amp; .NET for one year, developing and maintaining systems for big industrial companies." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W5-wp-6jV">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I worked with Microsoft SQLServer, C# &amp; .NET for one year, developing and maintaining systems for big industrial companies." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W5-wp-6jV">
                                         <rect key="frame" x="0.0" y="122.5" width="222" height="57.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And it has been 2 years that I’ve been  developing apps for iOS using Objective-C &amp; Swift." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-5X-LXu">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And it has been 2 years that I’ve been  developing apps for iOS using Objective-C &amp; Swift." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grJ-5X-LXu">
                                         <rect key="frame" x="0.0" y="192" width="244" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m autodidact; always aware of new technologies; passionate about helping to build the future; &amp; a huge fan of Elon Musk." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQH-Jp-w3c">
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m autodidact; always aware of new technologies; passionate about helping to build the future; &amp; a huge fan of Elon Musk." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQH-Jp-w3c">
                                         <rect key="frame" x="0.0" y="247" width="245" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.09367187499999996" green="0.09367187499999996" blue="0.09367187499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="9hh-GK-wYW"/>
+                                </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qR6-PD-ni2">
                                 <rect key="frame" x="25" y="450" width="203.5" height="92"/>
@@ -277,11 +280,11 @@ Swipe up to know more about me!</string>
                             <constraint firstItem="uNE-Zs-gJH" firstAttribute="leading" secondItem="IC7-zK-oeL" secondAttribute="leading" constant="25" id="Cie-NO-0Ag"/>
                             <constraint firstItem="Cfc-ZH-eEc" firstAttribute="top" secondItem="qR6-PD-ni2" secondAttribute="bottom" constant="125" id="RKj-Z7-7l4"/>
                             <constraint firstItem="qR6-PD-ni2" firstAttribute="leading" secondItem="IC7-zK-oeL" secondAttribute="leading" constant="25" id="X1Y-Xa-Lnf"/>
-                            <constraint firstAttribute="trailing" secondItem="uNE-Zs-gJH" secondAttribute="trailing" constant="100" id="Zu0-Se-z8H"/>
                             <constraint firstItem="Cfc-ZH-eEc" firstAttribute="top" secondItem="uNE-Zs-gJH" secondAttribute="bottom" constant="100" id="cqY-rB-LCZ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="constraintViewPresentationBottom" destination="RKj-Z7-7l4" id="hmQ-lF-er4"/>
                         <outlet property="lblSubtitle" destination="3Lu-Vv-Jqs" id="pag-pn-qz9"/>
                         <outlet property="lblTitle" destination="wI3-x4-rqM" id="KbA-MS-LlD"/>
                         <outlet property="stackHistory" destination="uNE-Zs-gJH" id="reG-IF-Ppg"/>
